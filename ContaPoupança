@@ -1,0 +1,12 @@
+public  class  ContaPoupanca  estende  Conta {
+
+	public  ContaPoupanca ( Cliente  cliente ) {
+		super ( cliente );
+	}
+
+	@ Substituir
+	public  void  imprimir Extrato () {
+		Sistema . fora . println ( "=== Extrato Conta Poupança ===" );
+		super . imprimirInfosComuns ();
+	}
+}
